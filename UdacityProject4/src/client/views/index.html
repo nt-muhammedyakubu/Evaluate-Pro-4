@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>To Evaluate a News Article With NLP</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="">
+            Udacity
+        </div>
+        <div class="">
+            Evaluating a News Article with NLP
+        </div>
+    </header>
+
+    <main>
+        <h1>MeaningCloud API</h1>
+        <p>Sentiment Analysis by MeaningCloud uses advanced natural language processing techniques to also detect the polarity associated to both entities and concepts in the text. Sentiment Analysis also gives the user the possibility of detecting the polarity
+            of user-defined entities and concepts, making the service a flexible tool applicable to any kind of scenario. Additionally, Sentiment Analysis detects if the text processed is subjective or objective and if it contains irony marks [beta],
+            both at global and sentence level, giving the user additional information about the reliability of the polarity obtained from the sentiment analysis.
+        </p>
+        <section>
+            <form onsubmit="return Client.handleSubmitMeaningCloud(event)">
+                <div class="form">
+                    <input id="url" type="url" name="url" value="" onblur="onBlur()" placeholder="Type in a valid URL">
+                    <input class="submit-button" type="submit" name="submit" value="Submit" onclick="return Client.handleSubmitForMeaningCloud(event)" onsubmit="return Client.handleSubmitForMeaningCloud(event)">
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <strong>Form Results:</strong>
+            <div id="results">
+                <ul>
+                    <li>
+                        <h3>Text Polarity:</h3>
+                        <p id="polarity"></p>
+                        <h4>Confidence:</h4>
+                        <p id="polarity_confidence"></p>
+
+                    </li>
+                    <li>
+                        <h3>Text Subjectivity:</h3>
+                        <p id="subjectivity"></p>
+                        <h4>Confidence:</h4>
+                        <p id="subjectivity_confidence"></p>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>MeaningCloud Sentiment Analysis Natural Language Processing.</p>
+        <p>Naimah Muhammed-Yakubu: Udacity Fend - 2021</p>
+    </footer>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+</body>
+
+</html>
