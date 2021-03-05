@@ -2,7 +2,7 @@
 
 <h3> 1. Project Introduction </h3>
 
-This is Udacity Project 4 of the Front-end-web-developer-challenge
+This is Udacity Project 4 of the Front-end-web-developer-challenge.<br>
 We will build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
 
 The goal of the project is to provide students the practice with:
