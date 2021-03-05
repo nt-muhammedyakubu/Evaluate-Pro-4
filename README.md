@@ -14,21 +14,3 @@ The goal of the project is to provide students the practice with:
 . Service workers<br>
 . Using APIs and creating requests to external urls
 
-<h3> 2. Getting Started </h3>
-
-- Download the app zip file<br>
-- Unzip it from the desktop<br>
-- Install node.js - https://nodejs.org/<br>
-- Install all modules listed as dependencies to appear in package.json; terminal command line - npm install<br>
-e.g.,<br>
-. npm i -D @babel/core @babel/preset-env babel-loader<br>
-. npm i -D style-loader node-sass css-loader sass-loader<br>
-. npm i -D clean-webpack-plugin<br>
-. npm i -D html-webpack-plugin<br>
-. npm i -D mini-css-extract-plugin<br>
-. npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin<br>
-
-- Run development environment; terminal command line - npm run build-dev<br>
-- Run JEST testing; terminal command line - npm run test<br>
-- Run production environment and build/update dist folder; terminal command line - npm run build-prod<br>
-- Run local server (http://localhost:8080/); terminal command line - npm run start<br>
