@@ -1,6 +1,6 @@
 # Evaluate-a-News-Article-with-NLPUdacityProject-4
 
-1. Project Introduction
+<h1> 1. Project Introduction </h1>
 
 This is Udacity Project 4 of the Front-end-web-developer-challenge
 We will build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
@@ -14,7 +14,7 @@ The goal of the project is to provide students the practice with:
 - Service workers<br>
 - Using APIs and creating requests to external urls
 
-2. Getting Started
+<h1> 2. Getting Started </h1>
 
 - Download the app zip file<br>
 - Unzip it from the desktop<br>
