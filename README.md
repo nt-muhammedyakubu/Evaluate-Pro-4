@@ -1,4 +1,4 @@
-# Evaluate-a-News-Article-with-NLPUdacityProject-4
+# Evaluate-a-News-Article-with-NLPProject-4
 
 <h3> 1. Project Introduction </h3>
 
